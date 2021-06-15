@@ -1,0 +1,43 @@
+.Block {
+   display: flex;
+    flex-wrap: wrap;
+}
+
+.User_Block_Fon {
+    padding: 5px;
+    border-radius: 8px;
+    width: 250px;
+    height: auto;
+    background-color: rgb(253, 253, 253);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+
+.User_Block {
+    position: relative;
+    border-radius: 8px;
+    background-color: rgb(218, 236, 236);
+    margin: 20px;
+    padding: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.ID {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 15px;
+    background-color:#0db9be;
+    color: white;
+    box-shadow: tomato 2px 3px 5px 2px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

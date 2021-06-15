@@ -1,0 +1,25 @@
+{
+  "name": "koa-postgresql-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/multer": "^3.0.0",
+    "fs-extra": "^10.0.0",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-cors": "^0.0.16",
+    "koa-proxy": "^1.0.0-alpha.3",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "multer": "^1.4.2",
+    "pg": "^8.6.0"
+  }
+}
